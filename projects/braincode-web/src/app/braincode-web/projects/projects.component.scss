@@ -1,0 +1,48 @@
+.midContainer {
+  /* background: url(../images/bg.jpg) no-repeat; */
+  background-color: #f6f6f6;
+  margin-top: -50px;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* @media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+} */
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.test {
+  background: rgb(185, 0, 0);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
